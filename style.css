@@ -1,0 +1,58 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  height: 100%;
+
+  background-color: #05050A;
+  color: #fff;
+}
+
+#principal {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+  background-color: red;
+}
+
+#set-countdown-zone {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: green;
+}
+
+#countdown-zone {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  
+}
+
+#timer {
+  display: flex;
+  align-items: center;
+}
